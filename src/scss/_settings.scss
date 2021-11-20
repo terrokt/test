@@ -1,14 +1,14 @@
 body {
+  position: relative;
+  display: flex;
   margin: 0;
+  height: 100%;
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
-  background-color: #ffffff;
-  color: #000000;
-  line-height: 1.3;
   font-size: 14px;
-  display: flex;
-  position: relative;
-  height: 100%;
+  line-height: 1.3;
+  color: #000;
+  background-color: #fff;
 }
 
 .is-hidden {
@@ -16,7 +16,7 @@ body {
 }
 
 .js-focus-visible :focus:not(.focus-visible) {
-  outline: none;
+  outline: transparent;
 }
 
 .visually-hidden {
